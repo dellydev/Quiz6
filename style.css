@@ -1,0 +1,96 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(94, 25, 39, 0.1);
+}
+
+#head{
+    background-color: powderblue;   
+    color: black;
+    width: 50%;
+    max-width: 400px;
+    margin-left: 50px;
+    border: 1px solid magenta;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.title{
+    color: brown;
+    padding: 20px;
+}
+
+
+.btn {
+    width: 60%;
+    text-align: left;
+    max-width: 600px;
+    margin: 10px 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ebebde;
+
+}
+.btn:hover:not([disabled]){
+    color: gold;
+    background-color: #2d2f4a;
+    transition: 0.5s linear;
+
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#btn-answer{
+    text-align: start;
+    color: blue;
+
+}
+
+ #btn-quit{
+    cursor: pointer;
+    width: 200px;
+    border-radius: 30px;
+    color: green;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #ebebde;
+    display: none;
+}
+
+#btn-quit:hover{
+    background-color: red;
+     transition: 0.2s linear;
+ }
+
+#btn-next{
+    background-color: aliceblue;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#btn-next:hover{
+   background-color: #ff9e9e;
+   color:#fff;
+    transition: 0.2s linear;
+}
+
+.correct{
+    background-color: gold;
+    color: blue;
+}
+
+.incorrect{
+    background-color: red;
+    color: white;
+}
